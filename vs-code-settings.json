@@ -1,0 +1,72 @@
+{
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "editor.cursorBlinking": "phase",
+    "editor.detectIndentation": false,
+    "editor.fontFamily": "'Cascadia Code', 'Source Code Pro', 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 17,
+    "editor.formatOnSave": true,
+    "editor.lineHeight": 25,
+    "editor.letterSpacing": 0.5,
+    "editor.minimap.enabled": false,
+    "editor.parameterHints.enabled": false,
+    "editor.quickSuggestionsDelay": 20,
+    "editor.scrollBeyondLastLine": false,
+    "editor.suggestSelection": "first",
+    "editor.tabSize": 2,
+    "files.autoSaveDelay": 1500,
+    "terminal.integrated.fontSize": 14,
+    "workbench.editor.tabCloseButton": "off",
+    "workbench.settings.editor": "json",
+    "workbench.startupEditor": "none",
+    "remote.SSH.remotePlatform": {
+      "devwong.com": "linux"
+    },
+    "files.hotExit": "off",
+    "workbench.editorAssociations": {
+      "*.ipynb": "jupyter.notebook.ipynb"
+    },
+    "javascript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": false,
+    "editor.renderIndentGuides": false,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
+    "window.zoomLevel": 0,
+    "prettier.useEditorConfig": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "workbench.colorTheme": "Palenight Theme",
+    "terminal.integrated.defaultProfile.linux": "bash",
+    "vim.easymotion": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": true,
+    "vim.insertModeKeyBindings": [
+      {
+        "before": ["j", "j"],
+        "after": ["<Esc>"]
+      }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+      {
+        "before": ["<leader>", "d"],
+        "after": ["d", "d"]
+      },
+      {
+        "before": ["<C-n>"],
+        "commands": [":nohl"]
+      }
+    ],
+    "vim.leader": "<space>",
+    "vim.handleKeys": {
+      "<C-a>": false,
+      "<C-c>": false,
+      "<C-f>": false,
+      "<C-j>": false,
+      "<C-b>": false,
+      "<C-k>": false,
+      "<C-w>": false,
+      "<C-v>": false
+    }
+  }
+  
